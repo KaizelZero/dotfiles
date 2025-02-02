@@ -45,10 +45,10 @@
 	  "brave-browser"
 	  "firefox"
 	  "ghostty"
+	  "rectangle"
 	];
 	masApps = {
 	  "Bitwarden" = 1352778147;
-	  "Magnet" = 441258766;
 	  "Xcode" = 497799835;
 	};
 	onActivation.cleanup = "zap";
