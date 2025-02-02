@@ -8,8 +8,12 @@
 
 font-size = 14
 
-background-opacity = 0.80
-background-blur-radius = 5
+alpha-blending = linear
+
+macos-titlebar-proxy-icon = hidden
+
+background-opacity = 0.90
+background-blur = 2
 
 # ghostty +list-themes
 theme = dark:tokyonight_night,light:tokyonight-day
