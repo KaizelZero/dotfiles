@@ -62,24 +62,31 @@
         ];
       
       system.defaults = {
-	dock.autohide = true;
-	dock.largesize = 57;
-	dock.magnification = true;
-	dock.show-recents = false;
-	dock.tilesize = 53;
-	dock.persistent-apps = [
-	  "/System/Applications/Messages.app"
-	  "/System/Applications/System Settings.app"
-	  "/Applications/Brave Browser.app"
-	];
-	loginwindow.GuestEnabled = false;
-	finder.AppleShowAllExtensions = true;
-	finder.AppleShowAllFiles = true;
-	finder.ShowExternalHardDrivesOnDesktop = false;
-	finder.ShowHardDrivesOnDesktop = false;
-	finder.ShowMountedServersOnDesktop = false;
-	finder.ShowPathbar = true;
-	finder.ShowRemovableMediaOnDesktop = false;
+        dock = {
+	  autohide = false;
+	  largesize = 57;
+	  magnification = true;
+	  show-recents = false;
+	  tilesize = 53;
+	  persistent-apps = [
+	    "/System/Applications/Messages.app"
+	    "/System/Applications/System Settings.app"
+	    "/Applications/Brave Browser.app"
+	  ];
+	  persistent-others = null
+	};
+	loginwindow = {
+	  GuestEnabled = false;
+	};
+	finder = {
+	  AppleShowAllExtensions = true;
+	  AppleShowAllFiles = true;
+	  ShowExternalHardDrivesOnDesktop = false;
+	  ShowHardDrivesOnDesktop = false;
+	  ShowMountedServersOnDesktop = false;
+	  ShowPathbar = true;
+	  ShowRemovableMediaOnDesktop = false;
+	};
 	menuExtraClock.ShowSeconds = true;
 	NSGlobalDomain.AppleInterfaceStyle = "Dark";
 	NSGlobalDomain.KeyRepeat = 2;
