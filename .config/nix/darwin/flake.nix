@@ -29,6 +29,10 @@
           enable = true;
           brews = [ 
             "mas"
+            "pyenv"
+            "readline"
+            "xz"
+            "pyenv-virtualenv"
           ];
           casks = [
             "hammerspoon"
