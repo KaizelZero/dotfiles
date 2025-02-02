@@ -3,6 +3,16 @@ if [[ -f "/opt/homebrew/bin/brew" ]] then
   eval "$(/opt/homebrew/bin/brew shellenv)"
 fi
 
+# If pyenv is installed, set up the pyenv environment
+if [ -d "$HOME/.pyenv" ]; then
+  export PATH="$HOME/.pyenv/bin:$PATH"
+  # Initialize pyenv and virtualenv if pyenv is available
+  if command -v pyenv >/dev/null 2>&1; then
+    eval "$(pyenv init -)"
+    eval "$(pyenv virtualenv-init -)"
+  fi
+fi
+
 # Set the directory we want to store zinit and plugins
 ZINIT_HOME="${XDG_DATA_HOME:-${HOME}/.local/share}/zinit/zinit.git"
 

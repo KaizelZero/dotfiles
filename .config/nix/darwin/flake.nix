@@ -33,6 +33,9 @@
             "readline"
             "xz"
             "pyenv-virtualenv"
+            "openssl"
+            "sqlite3"
+            "zlib"
           ];
           casks = [
             "hammerspoon"
