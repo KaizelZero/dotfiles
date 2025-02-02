@@ -8,12 +8,6 @@
 
 font-size = 14
 
-alpha-blending = linear-corrected
-
-macos-titlebar-style = tabs
-macos-titlebar-proxy-icon = hidden
-macos-option-as-alt = true
-
 background-opacity = 0.80
 background-blur-radius = 5
 
