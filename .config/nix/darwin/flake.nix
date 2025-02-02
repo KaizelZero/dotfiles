@@ -20,6 +20,10 @@
           pkgs.fzf
           pkgs.zoxide
           pkgs.stow
+          pkgs.ani-cli
+          pkgs.nodejs_22
+          pkgs.pnpm_10
+          pkgs.ani-skip
         ];
 
         homebrew = {
