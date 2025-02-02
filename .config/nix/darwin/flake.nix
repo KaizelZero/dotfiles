@@ -63,7 +63,7 @@
       
       system.defaults = {
         dock = {
-	  autohide = false;
+	  autohide = true;
 	  largesize = 57;
 	  magnification = true;
 	  show-recents = false;
@@ -73,7 +73,7 @@
 	    "/System/Applications/System Settings.app"
 	    "/Applications/Brave Browser.app"
 	  ];
-	  persistent-others = null
+	  persistent-others = [];
 	};
 	loginwindow = {
 	  GuestEnabled = false;
