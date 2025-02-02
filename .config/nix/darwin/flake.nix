@@ -45,6 +45,8 @@
             "firefox"
             "ghostty"
             "rectangle"
+            "nordvpn"
+            "qbittorrent"
           ];
           masApps = {
             "Bitwarden" = 1352778147;
