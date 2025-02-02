@@ -23,12 +23,13 @@
           pkgs.ani-cli
           pkgs.nodejs_22
           pkgs.pnpm_10
-          pkgs.ani-skip
         ];
 
         homebrew = {
           enable = true;
-          brews = [ "mas" ];
+          brews = [ 
+            "mas"
+          ];
           casks = [
             "hammerspoon"
             "firefox"
