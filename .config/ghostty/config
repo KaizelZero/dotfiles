@@ -20,3 +20,4 @@ theme = dark:tokyonight_night,light:tokyonight-day
 
 window-inherit-working-directory = false
 working-directory = home
+
