@@ -36,6 +36,7 @@
             "openssl"
             "sqlite3"
             "zlib"
+            "rust"
           ];
           casks = [
             "hammerspoon"
