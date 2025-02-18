@@ -12,7 +12,7 @@ alpha-blending = linear
 
 macos-titlebar-proxy-icon = hidden
 
-background-opacity = 0.90
+background-opacity = 0.70
 background-blur = 2
 
 # ghostty +list-themes
