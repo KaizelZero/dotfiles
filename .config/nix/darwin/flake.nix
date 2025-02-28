@@ -25,6 +25,7 @@
           pkgs.nodejs_22
           pkgs.pnpm_10
           pkgs.odin
+          pkgs.go
         ];
 
         homebrew = {
@@ -56,6 +57,7 @@
             "rectangle"
             "nordvpn"
             "qbittorrent"
+            "steam"
           ];
           masApps = {
             "Bitwarden" = 1352778147;
