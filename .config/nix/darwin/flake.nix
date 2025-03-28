@@ -39,6 +39,7 @@
             "sqlite3"
             "zlib"
             "rust"
+            "ffmpeg"
           ];
           casks = [
             "hammerspoon"
@@ -58,6 +59,7 @@
             "nordvpn"
             "qbittorrent"
             "steam"
+            "kunkun"
           ];
           masApps = {
             "Bitwarden" = 1352778147;
