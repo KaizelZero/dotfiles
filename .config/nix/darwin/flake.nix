@@ -59,7 +59,6 @@
             "nordvpn"
             "qbittorrent"
             "steam"
-            "devutils"
           ];
           masApps = {
             "Bitwarden" = 1352778147;
