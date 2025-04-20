@@ -40,6 +40,7 @@
             "zlib"
             "rust"
             "ffmpeg"
+            "pandoc"
           ];
           casks = [
             "hammerspoon"
