@@ -60,6 +60,7 @@
             "nordvpn"
             "qbittorrent"
             "steam"
+            "zen-browser"
           ];
           masApps = {
             "Bitwarden" = 1352778147;
