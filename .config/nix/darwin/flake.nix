@@ -25,7 +25,7 @@
           pkgs.nodejs_22
           pkgs.pnpm_10
           pkgs.odin
-          pkgs.go
+          pkgs.docker
         ];
 
         homebrew = {
