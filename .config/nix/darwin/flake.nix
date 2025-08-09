@@ -25,7 +25,6 @@
           pkgs.nodejs_22
           pkgs.pnpm_10
           pkgs.odin
-          pkgs.docker
         ];
 
         homebrew = {
@@ -41,6 +40,7 @@
             "rust"
             "ffmpeg"
             "pandoc"
+            "docker"
           ];
           casks = [
             "hammerspoon"
