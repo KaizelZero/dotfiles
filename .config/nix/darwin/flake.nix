@@ -40,7 +40,6 @@
             "rust"
             "ffmpeg"
             "pandoc"
-            "docker"
           ];
           casks = [
             "hammerspoon"
