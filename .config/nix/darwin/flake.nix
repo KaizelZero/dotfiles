@@ -59,6 +59,7 @@
             "nordvpn"
             "qbittorrent"
             "steam"
+            "dotnet-runtime"
           ];
           masApps = {
             "Bitwarden" = 1352778147;
