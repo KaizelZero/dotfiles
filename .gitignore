@@ -3,4 +3,5 @@
 .config/raycast/
 .config/qBittorrent/
 .config/better-auth/
-.config/zed/
+.config/zed/prompts/
+.config/zed/conversations/

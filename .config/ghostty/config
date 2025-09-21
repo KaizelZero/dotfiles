@@ -16,7 +16,7 @@ background-opacity = 0.70
 background-blur = 2
 
 # ghostty +list-themes
-theme = dark:tokyonight_night,light:tokyonight-day
+theme = Dracula+
 
 window-inherit-working-directory = false
 working-directory = home
