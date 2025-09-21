@@ -13,6 +13,7 @@
   outputs = inputs@{ self, nix-darwin, nixpkgs, mac-app-util, nix-homebrew }:
     let
       configuration = { pkgs, config, ... }: {
+        system.primaryUser = "jimmy";
         nixpkgs.config.allowUnfree = true;
 
         environment.systemPackages = [
@@ -24,6 +25,7 @@
           pkgs.ani-cli
           pkgs.nodejs_22
           pkgs.odin
+          pkgs.go
         ];
 
         homebrew = {
@@ -40,6 +42,7 @@
             "ffmpeg"
             "pandoc"
             "pnpm"
+            "mas"
           ];
           casks = [
             "hammerspoon"
@@ -63,7 +66,6 @@
           ];
           masApps = {
             "Bitwarden" = 1352778147;
-            "Xcode" = 497799835;
           };
           onActivation = {
             cleanup = "zap";
@@ -79,11 +81,6 @@
         system = {
           stateVersion = 6;
           configurationRevision = self.rev or self.dirtyRev or null;
-
-          activationScripts.postUserActivation.text = ''
-            # Following line should allow us to avoid a logout/login cycle
-            /System/Library/PrivateFrameworks/SystemAdministration.framework/Resources/activateSettings -u
-          '';
 
           defaults = {
             dock = {
